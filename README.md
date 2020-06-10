@@ -13,11 +13,11 @@ Check the last mission informations.
 
 > $ node main.js </br>
 
-## API
+### API
 
 https://github.com/r-spacex/SpaceX-API
 
-## NPM Package
+### NPM Package
 
 https://www.npmjs.com/package/axios
 
