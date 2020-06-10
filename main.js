@@ -1,10 +1,6 @@
 const axios = require("axios");
 const spaceXapi = "https://api.spacexdata.com/v3/launches/latest";
 
-// Type node main.js to check Space X latest launch
-// API USED:
-// https://github.com/r-spacex/SpaceX-API
-
 let finder = async () => {
   try {
     const response = await axios.get(spaceXapi);
