@@ -8,12 +8,14 @@ let finder = async () => {
     const missionName = response.data.mission_name;
     const rocketName = response.data.rocket.rocket_name;
     const launchDate = response.data.launch_date_utc;
+    const missionDetails = response.data.details;
     const launchVideo = response.data.links.video_link;
     const moreInfo = response.data.links.reddit_campaign;
     console.log(`Space X latest Mission: ${missionName}`);
     console.log(`Mission number: ${missionNumber}`);
     console.log(`Rocket launched: ${rocketName}`);
     console.log(`UTC Launch time: ${launchDate}`);
+    console.log(`Mission details: ${missionDetails}`);
     console.log(`Watch the launch video: ${launchVideo}`);
     console.log(`For informations check: ${moreInfo}`);
   } catch (error) {
