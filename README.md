@@ -2,8 +2,8 @@
 
 ## install:
 
-> $ git clone "space-x-lastest-launch" </br>
-> $ cd space-x-lastest-launch </br>
+> $ git clone space-x-latest-launch </br>
+> $ cd space-x-latest-launch </br>
 > $ npm innit </br>
 > $ npm install axios </br>
 
